@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Deals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1c2238;
+    --ink-soft: #4a5068;
+    --ink-faint: #8a90a6;
+    --line: #e3e5ec;
+    --wash: #f6f7fa;
+    --accent: #2f6b62;
+    --accent-wash: #eef4f2;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "Work Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body {
+    font-family: var(--sans);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 8px 0 32px; }
+
+  /* Filters */
+  .filters {
+    display: grid;
+    grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr) minmax(0, 1fr) auto;
+    gap: 14px;
+    align-items: end;
+    margin-bottom: 18px;
+  }
+  .field label {
+    display: block;
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+  }
+  .field input, .field select {
+    width: 100%;
+    height: 46px;
+    padding: 0 14px;
+    font: inherit;
+    font-size: 15px;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid #c9cdd8;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  .field select {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%231c2238' stroke-width='1.6'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 36px;
+  }
+  .field input::placeholder { color: var(--ink-faint); }
+  .field input:focus, .field select:focus, button:focus-visible, a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-color: var(--accent);
+  }
+  .clear {
+    height: 46px;
+    padding: 0 18px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid var(--ink);
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .clear:hover { background: var(--wash); }
+
+  /* Notes */
+  .notes {
+    background: var(--accent-wash);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    margin-bottom: 18px;
+    font-size: 14.5px;
+  }
+  .notes p { margin: 0; }
+  .notes p + p { margin-top: 8px; }
+  .notes a { color: var(--accent); font-weight: 500; text-decoration: underline; text-underline-offset: 2px; }
+  .count { font-size: 14px; color: var(--ink-soft); margin: 0 0 10px; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; border: 1px solid var(--line); }
+  thead th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 13.5px;
+    color: #fff;
+    background: var(--ink);
+    padding: 14px 16px;
+    vertical-align: bottom;
+  }
+  tbody td {
+    padding: 18px 16px;
+    vertical-align: top;
+    border-top: 1px solid var(--line);
+    font-size: 14.5px;
+  }
+  tbody tr:nth-child(even) td { background: var(--wash); }
+  td.c-hotel .name {
+    font-family: var(--serif);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: var(--ink);
+  }
+  td.c-hotel .brand, td.c-loc .area {
+    display: block;
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    margin-top: 4px;
+  }
+  td.c-hotel .brand { font-variant: all-small-caps; letter-spacing: .06em; font-size: 14px; }
+  td.c-offer { font-weight: 600; color: var(--accent); }
+  td.c-details { color: var(--ink-soft); }
+  td.c-details .kids { display: block; margin-top: 6px; color: var(--ink); }
+  td.c-details .how { display: block; margin-top: 6px; }
+  td.c-details .how a, .card .how a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  td.c-when { white-space: nowrap; }
+  .soon { color: #9a3b2c; font-weight: 500; }
+
+  .empty {
+    border: 1px solid var(--line);
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--ink-soft);
+  }
+  .updated { font-size: 13px; color: var(--ink-faint); margin: 14px 0 0; }
+
+  /* Cards (phone) */
+  .cards { display: none; }
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 12px;
+    background: #fff;
+  }
+  .card .name { font-family: var(--serif); font-size: 20px; font-weight: 500; line-height: 1.25; }
+  .card .brand { font-variant: all-small-caps; letter-spacing: .06em; font-size: 14px; color: var(--ink-faint); margin-top: 2px; }
+  .card .loc { font-size: 14px; color: var(--ink-soft); margin-top: 6px; }
+  .card .offer { font-weight: 600; color: var(--accent); margin: 12px 0 10px; font-size: 15.5px; }
+  .card dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 14px; }
+  .card dt { color: var(--ink-faint); }
+  .card dd { margin: 0; }
+  .card .details { margin-top: 10px; font-size: 14px; color: var(--ink-soft); }
+  .card .kids { display: block; margin-top: 6px; color: var(--ink); }
+  .card .how { display: block; margin-top: 6px; }
+
+  @media (max-width: 700px) {
+    body { font-size: 15px; }
+    .wrap { padding: 4px 0 24px; }
+    .filters { grid-template-columns: 1fr; gap: 12px; }
+    .clear { width: 100%; }
+    .notes { font-size: 14px; padding: 12px 14px; }
+    table { display: none; }
+    .cards { display: block; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .card, tbody tr { transition: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <div class="filters" role="search">
+    <div class="field">
+      <label for="q">Search</label>
+      <input id="q" type="search" placeholder="Destination, hotel or offer" autocomplete="off">
+    </div>
+    <div class="field">
+      <label for="area">Area</label>
+      <select id="area"><option value="">All areas</option></select>
+    </div>
+    <div class="field">
+      <label for="brand">Brand</label>
+      <select id="brand"><option value="">All brands</option></select>
+    </div>
+    <button class="clear" id="clear" type="button">Clear filters</button>
+  </div>
+
+  <div class="notes">
+    <p><strong>Need help booking?</strong> Use the <a href="https://sarahwlee.travelwits.com/" target="_blank" rel="noopener">booking engine</a> with access code <strong>VIPTRAVELER</strong>, or email <a href="mailto:merritt@sarahwlee.com">merritt@sarahwlee.com</a> and I'll book it for you.</p>
+    <p><strong>Traveling with children?</strong> The booking engine counts every guest as an adult, so please email me and I'll set the booking up with the right rates for kids.</p>
+  </div>
+
+  <p class="count" id="count"></p>
+
+  <table id="table" aria-label="Current offers">
+    <thead>
+      <tr>
+        <th style="width:18%">Hotel</th>
+        <th style="width:13%">Location</th>
+        <th style="width:15%">Offer</th>
+        <th style="width:10%">Book by</th>
+        <th style="width:11%">Stay dates</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="cards" id="cards"></div>
+  <div class="empty" id="empty" hidden>No offers match that search. Try clearing the filters, or email me and I'll look for you.</div>
+
+  <p class="updated" id="updated"></p>
+</div>
+
+<script>
+(function () {
+  var BOOK = 'https://sarahwlee.travelwits.com/';
+  var MAIL = 'mailto:merritt@sarahwlee.com';
+  var deals = [];
+  var q = document.getElementById('q');
+  var areaSel = document.getElementById('area');
+  var brandSel = document.getElementById('brand');
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  function fmtDate(iso) {
+    if (!iso) return '';
+    var p = iso.split('-');
+    var d = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2]));
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  }
+  function daysUntil(iso) {
+    if (!iso) return null;
+    var p = iso.split('-');
+    var t = Date.UTC(+p[0], +p[1] - 1, +p[2]);
+    var now = new Date();
+    var today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.round((t - today) / 86400000);
+  }
+  function bookBy(d) {
+    if (!d.book_by) return '<span class="muted">Not stated</span>';
+    var n = daysUntil(d.book_by);
+    var label = 'Until ' + fmtDate(d.book_by);
+    if (n !== null && n <= 7) label = '<span class="soon">' + label + '</span>';
+    return label;
+  }
+  function stayText(d) {
+    if (d.stay_text) return esc(d.stay_text);
+    if (d.stay_start && d.stay_end) return fmtDate(d.stay_start) + ' to ' + fmtDate(d.stay_end);
+    if (d.stay_end) return 'Until ' + fmtDate(d.stay_end);
+    if (d.stay_start) return 'From ' + fmtDate(d.stay_start);
+    return '<span class="muted">Not stated</span>';
+  }
+  function how(d) {
+    if (d.advisor_booked) {
+      return '<span class="how">Email <a href="' + MAIL + '">Merritt</a> to book this one.</span>';
+    }
+    return '<span class="how">Book in the <a href="' + BOOK + '" target="_blank" rel="noopener">booking engine</a> or email <a href="' + MAIL + '">Merritt</a>.</span>';
+  }
+  function kids(d) {
+    return d.kids ? '<span class="kids">Traveling with kids? Email Merritt so the booking is set up with the right rates.</span>' : '';
+  }
+
+  function fill(sel, values) {
+    values.sort(function (a, b) { return a.localeCompare(b); }).forEach(function (v) {
+      var o = document.createElement('option');
+      o.value = v; o.textContent = v; sel.appendChild(o);
+    });
+  }
+  function uniq(key) {
+    var seen = {};
+    return deals.map(function (d) { return d[key]; }).filter(function (v) {
+      if (!v || seen[v]) return false; seen[v] = 1; return true;
+    });
+  }
+
+  function matches(d) {
+    var s = q.value.trim().toLowerCase();
+    if (areaSel.value && d.area !== areaSel.value) return false;
+    if (brandSel.value && d.brand !== brandSel.value) return false;
+    if (!s) return true;
+    var hay = [d.name, d.brand, d.location, d.area, d.offer, d.details].join(' ').toLowerCase();
+    return s.split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
+  }
+
+  function sortKey(d) { return d.book_by || (d.stay_end ? '9' + d.stay_end : '9999-99-99'); }
+
+  function render() {
+    var list = deals.filter(matches).sort(function (a, b) {
+      return sortKey(a) < sortKey(b) ? -1 : sortKey(a) > sortKey(b) ? 1 : a.name.localeCompare(b.name);
+    });
+    document.getElementById('count').textContent = 'Showing ' + list.length + ' of ' + deals.length + ' offers';
+    var rows = '', cards = '';
+    list.forEach(function (d) {
+      rows += '<tr>' +
+        '<td class="c-hotel"><div class="name">' + esc(d.name) + '</div><span class="brand">' + esc(d.brand) + '</span></td>' +
+        '<td class="c-loc">' + esc(d.location) + '<span class="area">' + esc(d.area) + '</span></td>' +
+        '<td class="c-offer">' + esc(d.offer) + '</td>' +
+        '<td class="c-when">' + bookBy(d) + '</td>' +
+        '<td>' + stayText(d) + '</td>' +
+        '<td class="c-details">' + esc(d.details) + kids(d) + how(d) + '</td>' +
+        '</tr>';
+      cards += '<div class="card">' +
+        '<div class="name">' + esc(d.name) + '</div>' +
+        '<div class="brand">' + esc(d.brand) + '</div>' +
+        '<div class="loc">' + esc(d.location) + (d.area ? ' &middot; ' + esc(d.area) : '') + '</div>' +
+        '<div class="offer">' + esc(d.offer) + '</div>' +
+        '<dl><dt>Book by</dt><dd>' + bookBy(d) + '</dd><dt>Stay dates</dt><dd>' + stayText(d) + '</dd></dl>' +
+        '<div class="details">' + esc(d.details) + kids(d) + how(d) + '</div>' +
+        '</div>';
+    });
+    document.getElementById('rows').innerHTML = rows;
+    document.getElementById('cards').innerHTML = cards;
+    var empty = list.length === 0;
+    document.getElementById('empty').hidden = !empty;
+    document.getElementById('table').style.display = empty ? 'none' : '';
+    if (!empty && window.innerWidth > 700) document.getElementById('table').style.display = 'table';
+    postHeight();
+  }
+
+  function postHeight() {
+    try {
+      var h = document.documentElement.scrollHeight;
+      if (window.parent && window.parent !== window) window.parent.postMessage({ type: 'twm-deals-height', height: h }, '*');
+    } catch (e) {}
+  }
+
+  q.addEventListener('input', render);
+  areaSel.addEventListener('change', render);
+  brandSel.addEventListener('change', render);
+  document.getElementById('clear').addEventListener('click', function () {
+    q.value = ''; areaSel.value = ''; brandSel.value = ''; render(); q.focus();
+  });
+  window.addEventListener('resize', function () { render(); });
+  window.addEventListener('load', postHeight);
+
+  fetch('deals.json?v=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      deals = data.deals || [];
+      fill(areaSel, uniq('area'));
+      fill(brandSel, uniq('brand'));
+      if (data.updated) document.getElementById('updated').textContent = 'Updated ' + data.updated;
+      render();
+    })
+    .catch(function () {
+      document.getElementById('count').textContent = '';
+      var e = document.getElementById('empty');
+      e.hidden = false;
+      e.textContent = 'The offers could not be loaded right now. Please refresh the page, or email merritt@sarahwlee.com.';
+      document.getElementById('table').style.display = 'none';
+      postHeight();
+    });
+})();
+</script>
+</body>
+</html>
