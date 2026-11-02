@@ -1,5 +1,5 @@
 {
- "updated": "November 1, 2026",
+ "updated": "November 2, 2026",
  "deals": [
   {
    "name": "One&Only Palmilla",
@@ -2870,6 +2870,20 @@
    "details": "Complimentary fourth night on summer stays in a suite or private residence, or a complimentary sixth night in the snow season in a room, suite or residence. Subject to availability. Exact dates and conditions to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": false
+  },
+  {
+   "name": "NEMI Milan, a Tribute Portfolio Hotel",
+   "brand": "NEMI Milan",
+   "location": "Milan, Italy",
+   "area": "Europe",
+   "offer": "Guaranteed room upgrade with a bottle of Italian wine on arrival",
+   "book_by": "2026-11-15",
+   "stay_start": "2026-11-02",
+   "stay_end": "2027-03-31",
+   "stay_text": "Nov 2, 2026 to Mar 31, 2027",
+   "details": "Applies to all room categories from Superior Rooms to Suites. The upgrade to the next room category is confirmed at the time of booking when booked through Merritt, with early check-in and late checkout subject to availability. Blackout dates may apply.",
+   "kids": false,
+   "advisor_booked": true
   }
  ]
 }
