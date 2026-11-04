@@ -1,5 +1,5 @@
 {
-  "updated": "November 3, 2026",
+  "updated": "November 4, 2026",
   "deals": [
     {
       "name": "One&Only Palmilla",
@@ -650,12 +650,12 @@
       "brand": "Rosewood",
       "location": "Los Cabos, Mexico",
       "area": "Mexico and Caribbean",
-      "offer": "30% off Best Available Rate plus a hotel benefit",
+      "offer": "30% off Best Available Rate plus exclusive benefits",
       "book_by": "2026-11-10",
       "stay_start": "",
-      "stay_end": "2027-06-30",
-      "stay_text": "Through June 30, 2027",
-      "details": "Rosewood Beyond goes live on Tuesday, November 3, 2026 and can be booked through November 10, 2026, for stays through June 30, 2027. From November 3 you can book it on the booking engine or email Merritt. The offer is 30% off Best Available Rate plus one extra benefit chosen by the hotel. Availability and blackout dates apply, and houses, penthouses, villas and apartments are excluded.",
+      "stay_end": "2027-10-20",
+      "stay_text": "Through October 20, 2027",
+      "details": "Rosewood Beyond can be booked November 3 to 10, 2026, for stays through October 20, 2027. The offer is 30% off Best Available Rate plus extra benefits chosen by the hotel. Availability, blackout dates and exclusions apply, and houses, penthouses, villas and apartments are excluded.",
       "kids": false,
       "advisor_booked": false
     },
@@ -2910,6 +2910,34 @@
       "stay_end": "",
       "stay_text": "Eligible stays outside the festive period",
       "details": "Stay five nights and pay for four on eligible stays outside the festive period. Not valid over the holiday weeks. Exact dates and conditions to be confirmed with the hotel.",
+      "kids": false,
+      "advisor_booked": false
+    },
+    {
+      "name": "All participating hotels",
+      "brand": "Ikos Resorts",
+      "location": "Greece and Spain",
+      "area": "Europe",
+      "offer": "Up to 15% off Deluxe Collection suites and villas for 2027 stays",
+      "book_by": "2026-11-30",
+      "stay_start": "2027-01-01",
+      "stay_end": "2027-12-31",
+      "stay_text": "Stays throughout 2027",
+      "details": "Applies to Deluxe Collection suites and villas at participating Ikos resorts (Ikos Kissamos and Ikos Oceania are excluded), combining an early booking discount of up to 10% with an extra 5% autumn saving. Deluxe Collection stays include a dedicated concierge, two days with a MINI Countryman, unlimited advance restaurant reservations, champagne service and spa treatments. Exact dates and conditions to be confirmed with the hotel.",
+      "kids": false,
+      "advisor_booked": false
+    },
+    {
+      "name": "Luminara",
+      "brand": "The Ritz-Carlton Yacht Collection",
+      "location": "Japan voyages (Tokyo roundtrip and Tokyo to Seoul)",
+      "area": "Cruises",
+      "offer": "Up to $5,000 per guest airfare credit on select 2026 and 2027 voyages",
+      "book_by": "",
+      "stay_start": "2027-04-05",
+      "stay_end": "2027-05-05",
+      "stay_text": "Featured Japan voyages depart Apr 5, Apr 15 and Apr 25, 2027",
+      "details": "Guests booking the most spacious suites receive round-trip Business Class flights from select gateways, a pre-voyage hotel night and transfers. The featured sailings are three 10-night Japan voyages on Luminara departing April 5, April 15 and April 25, 2027. Exact dates and conditions to be confirmed with the cruise line.",
       "kids": false,
       "advisor_booked": false
     }
