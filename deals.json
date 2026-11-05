@@ -1,5 +1,5 @@
 {
-  "updated": "November 4, 2026",
+  "updated": "November 5, 2026",
   "deals": [
     {
       "name": "One&Only Palmilla",
@@ -70,20 +70,6 @@
       "details": "The Two-Night Escape Offer requires a minimum two-night stay and includes daily breakfast at the restaurant and access to the wellness and fitness facilities. The discount is up to 25% off the Flexible Rate, so the exact percentage may vary by date. No booking deadline is stated.",
       "kids": false,
       "advisor_booked": false
-    },
-    {
-      "name": "Rosewood Calistoga",
-      "brand": "Rosewood",
-      "location": "Calistoga, Napa Valley, USA",
-      "area": "North America",
-      "offer": "Guaranteed complimentary room upgrade, USD 90 daily breakfast credit and USD 100 hotel credit",
-      "book_by": "2026-11-04",
-      "stay_start": "",
-      "stay_end": "",
-      "stay_text": "2027 stays",
-      "details": "Merritt can book 2027 stays at the new Rosewood Calistoga ahead of the public through November 4, 2026. Clients get a guaranteed complimentary room upgrade confirmed at booking (subject to availability), a USD 90 daily breakfast credit and a USD 100 hotel credit. The hotel's opening date and the exact 2027 dates covered are to be confirmed.",
-      "kids": false,
-      "advisor_booked": true
     },
     {
       "name": "The Maybourne Beverly Hills",
@@ -2940,6 +2926,34 @@
       "details": "Guests booking the most spacious suites receive round-trip Business Class flights from select gateways, a pre-voyage hotel night and transfers. The featured sailings are three 10-night Japan voyages on Luminara departing April 5, April 15 and April 25, 2027. Exact dates and conditions to be confirmed with the cruise line.",
       "kids": false,
       "advisor_booked": false
+    },
+    {
+      "name": "The Ranch Malibu",
+      "brand": "The Ranch",
+      "location": "Malibu, California, USA",
+      "area": "North America",
+      "offer": "Up to 25% off retreats",
+      "book_by": "2026-11-29",
+      "stay_start": "",
+      "stay_end": "2027-11-30",
+      "stay_text": "Through Nov 30, 2027",
+      "details": "The discount runs from 15% to 25% depending on the month of stay. It applies to new reservations only and blackout dates apply. It cannot be combined with other promotions or with the extra amenities Merritt can usually add.",
+      "kids": false,
+      "advisor_booked": true
+    },
+    {
+      "name": "The Ranch Hudson Valley",
+      "brand": "The Ranch",
+      "location": "Sloatsburg, New York, USA",
+      "area": "North America",
+      "offer": "Up to 25% off retreats",
+      "book_by": "2026-11-29",
+      "stay_start": "",
+      "stay_end": "2027-11-30",
+      "stay_text": "Through Nov 30, 2027",
+      "details": "The discount runs from 15% to 25% depending on the month of stay. It applies to new reservations only and blackout dates apply. It cannot be combined with other promotions or with the extra amenities Merritt can usually add.",
+      "kids": false,
+      "advisor_booked": true
     }
   ]
 }
