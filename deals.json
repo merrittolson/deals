@@ -1,5 +1,5 @@
 {
- "updated": "November 9, 2026",
+ "updated": "November 10, 2026",
  "deals": [
   {
    "name": "Participating Barrière hotels in Deauville, Dinard, La Baule, Le Touquet and Lille",
@@ -2994,6 +2994,34 @@
    "stay_end": "2027-04-29",
    "stay_text": "Select nights from January 3 to April 29, 2027",
    "details": "Florida residents save up to 30% on select rooms at Disney Resorts Collection hotels for select nights from January 3 to April 29, 2027. Proof of Florida residency is required. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Disney Resorts Collection hotels (prepaid nonrefundable winter rates)",
+   "brand": "Disney",
+   "location": "Orlando, United States",
+   "area": "North America",
+   "offer": "Prepaid nonrefundable winter rates from $99 per night plus tax",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "Select winter stays",
+   "details": "Pay in full at booking and save with special nonrefundable rates on select Disney Resorts Collection stays this winter, starting from $99 per night plus tax at Disney's All-Star Sports Resort. Rates vary by resort and date and cannot be refunded once booked. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Park Hotel Kenmare",
+   "brand": "Park Hotel Kenmare",
+   "location": "Kenmare, Ireland",
+   "area": "UK and Ireland",
+   "offer": "Two-night package with dinner for two, breakfast, spa access and train station transfers",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "2027-02-27",
+   "stay_text": "Stays until Feb 27, 2027, excluding Dec 24, 2026 to Jan 1, 2027",
+   "details": "The Scenic Route package includes two nights, a la carte breakfast each morning, a three-course dinner for two at Landline, access to Landscape spa including the stone baths, cold plunge, sauna, steam room and lap pool, and return transfers between Killarney train station and the hotel. Available for stays until February 27, 2027, excluding December 24, 2026 to January 1, 2027. Package price to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": false
   }
