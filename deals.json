@@ -1,5 +1,5 @@
 {
- "updated": "November 11, 2026",
+ "updated": "November 12, 2026",
  "deals": [
   {
    "name": "Participating Barrière hotels in Deauville, Dinard, La Baule, Le Touquet and Lille",
@@ -2940,6 +2940,20 @@
    "details": "A complimentary 30-minute helicopter excursion with four consecutive nights at eligible properties, or 60 minutes with a qualifying seven-night multi-property itinerary. Subject to availability and property-specific restrictions. Book by December 7, 2026.",
    "kids": false,
    "advisor_booked": false
+  },
+  {
+   "name": "Park Hyatt Cabo del Sol",
+   "brand": "Hyatt",
+   "location": "Cabo San Lucas, Mexico",
+   "area": "Mexico and Caribbean",
+   "offer": "Festive package with daily breakfast, private airport transfers and up to $300 resort credit",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "Festive season 2026",
+   "details": "Includes daily breakfast at Mesa Madre for all registered guests, private round-trip airport transportation, up to USD 300 resort credit per stay, early check-in and late check-out subject to availability, and access to the festive programming. Valid for new bookings and additional restrictions may apply. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": true
   }
  ]
 }
