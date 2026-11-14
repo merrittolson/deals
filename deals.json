@@ -1,5 +1,5 @@
 {
- "updated": "November 13, 2026",
+ "updated": "November 14, 2026",
  "deals": [
   {
    "name": "Participating Barrière hotels in Deauville, Dinard, La Baule, Le Touquet and Lille",
@@ -67,7 +67,7 @@
    "stay_start": "",
    "stay_end": "2027-12-15",
    "stay_text": "Through Dec 15, 2027",
-   "details": "Part of the One&Only Americas Season of Gratitude campaign. Merritt can book it from November 2, 2026, two weeks before it opens to the public on November 17. The exact savings depend on the resort and the stay, and blackout dates apply.",
+   "details": "Part of the One&Only Americas Season of Gratitude campaign, available to the public from November 17, 2026. The exact savings depend on the resort and the stay, and blackout dates apply.",
    "kids": false,
    "advisor_booked": true
   },
@@ -81,7 +81,7 @@
    "stay_start": "",
    "stay_end": "2027-12-15",
    "stay_text": "Through Dec 15, 2027",
-   "details": "Part of the One&Only Americas Season of Gratitude campaign. Merritt can book it from November 2, 2026, two weeks before it opens to the public on November 17. The exact savings depend on the resort and the stay, and blackout dates apply.",
+   "details": "Part of the One&Only Americas Season of Gratitude campaign, available to the public from November 17, 2026. The exact savings depend on the resort and the stay, and blackout dates apply.",
    "kids": false,
    "advisor_booked": true
   },
@@ -95,7 +95,7 @@
    "stay_start": "",
    "stay_end": "2027-12-15",
    "stay_text": "Through Dec 15, 2027",
-   "details": "Part of the One&Only Americas Season of Gratitude campaign. Merritt can book it from November 2, 2026, two weeks before it opens to the public on November 17. The exact savings depend on the resort and the stay, and blackout dates apply.",
+   "details": "Part of the One&Only Americas Season of Gratitude campaign, available to the public from November 17, 2026. The exact savings depend on the resort and the stay, and blackout dates apply.",
    "kids": false,
    "advisor_booked": true
   },
@@ -2954,6 +2954,20 @@
    "details": "Includes daily breakfast at Mesa Madre for all registered guests, private round-trip airport transportation, up to USD 300 resort credit per stay, early check-in and late check-out subject to availability, and access to the festive programming. Valid for new bookings and additional restrictions may apply. Exact dates and conditions to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": true
+  },
+  {
+   "name": "Castle Hot Springs",
+   "brand": "Castle Hot Springs",
+   "location": "Morristown, Arizona, USA",
+   "area": "North America",
+   "offer": "50% off the fourth night on four-night stays",
+   "book_by": "",
+   "stay_start": "2027-01-03",
+   "stay_end": "2027-09-30",
+   "stay_text": "Jan 3 to Feb 8, 2027 and May 30 to Sep 30, 2027",
+   "details": "Savor the Moment offer. Stay four nights during either window and the fourth night is half price. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": false
   }
  ]
 }
