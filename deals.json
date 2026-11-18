@@ -1,5 +1,5 @@
 {
- "updated": "November 17, 2026",
+ "updated": "November 18, 2026",
  "deals": [
   {
    "name": "ESPACIO Nagoya Castle",
@@ -3066,6 +3066,34 @@
    "details": "An early Black Friday rate with up to 30% off rooms and 50% off suites, including suites in The Towers, for stays through September 6, 2027. Free cancellation until 72 hours before arrival; one night is charged for later cancellations.",
    "kids": false,
    "advisor_booked": false
+  },
+  {
+   "name": "Jumeirah Al Qasr",
+   "brand": "Jumeirah",
+   "location": "Dubai, UAE",
+   "area": "Middle East and Africa",
+   "offer": "Fourth night free",
+   "book_by": "2027-01-31",
+   "stay_start": "2026-11-16",
+   "stay_end": "2027-12-21",
+   "stay_text": "Nov 16, 2026 to Dec 21, 2027",
+   "details": "Stay four nights and pay for three, on all room categories at Madinat Jumeirah. Blackout dates apply. Plus Virtuoso amenities when booked through Merritt.",
+   "kids": false,
+   "advisor_booked": true
+  },
+  {
+   "name": "Jumeirah Al Naseem",
+   "brand": "Jumeirah",
+   "location": "Dubai, UAE",
+   "area": "Middle East and Africa",
+   "offer": "Fourth night free",
+   "book_by": "2027-01-31",
+   "stay_start": "2026-11-16",
+   "stay_end": "2027-12-21",
+   "stay_text": "Nov 16, 2026 to Dec 21, 2027",
+   "details": "Stay four nights and pay for three, on all room categories at Madinat Jumeirah. Blackout dates apply. Plus Virtuoso amenities when booked through Merritt.",
+   "kids": false,
+   "advisor_booked": true
   }
  ]
 }
