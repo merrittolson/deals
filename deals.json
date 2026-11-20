@@ -1,5 +1,5 @@
 {
- "updated": "November 19, 2026",
+ "updated": "November 20, 2026",
  "deals": [
   {
    "name": "ESPACIO Nagoya Castle",
@@ -3106,6 +3106,20 @@
    "stay_end": "2027-12-31",
    "stay_text": "Travel Nov 27, 2026 to Dec 31, 2027",
    "details": "Black Friday sale on small-group and private guided tours in Italy, France, Spain, England, Austria and Germany. Bookings must be made between Nov 27 at 6:00 a.m. Pacific and Dec 1 at 11:59 p.m. Pacific, for travel through Dec 31, 2027. The discount varies by tour and applies to standard tours only, not customized itineraries.",
+   "kids": false,
+   "advisor_booked": true
+  },
+  {
+   "name": "Solaz, a Luxury Collection Resort, Los Cabos",
+   "brand": "The Luxury Collection",
+   "location": "Los Cabos, Mexico",
+   "area": "Mexico and Caribbean",
+   "offer": "Up to 25% off stays of 3 nights or more",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "",
+   "details": "Save 20% on a stay of three nights, or 25% on four or more consecutive nights, when booked through Merritt. Subject to availability and not combinable with other promotions. Exact dates and conditions to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": true
   }
