@@ -1,5 +1,5 @@
 {
- "updated": "November 20, 2026",
+ "updated": "November 21, 2026",
  "deals": [
   {
    "name": "ESPACIO Nagoya Castle",
@@ -3122,6 +3122,104 @@
    "details": "Save 20% on a stay of three nights, or 25% on four or more consecutive nights, when booked through Merritt. Subject to availability and not combinable with other promotions. Exact dates and conditions to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": true
+  },
+  {
+   "name": "Chileno Bay Resort & Residences",
+   "brand": "Auberge Resorts Collection",
+   "location": "Los Cabos, Mexico",
+   "area": "Mexico and Caribbean",
+   "offer": "Up to 40% off when booked 14 or more days ahead",
+   "book_by": "2026-12-07",
+   "stay_start": "",
+   "stay_end": "2027-10-31",
+   "stay_text": "Stays through Oct 31, 2027",
+   "details": "Reserve 14 or more days before arrival to save up to 40%. Full prepayment is required at booking and the reservation cannot be changed, cancelled or refunded. Subject to availability and blackout dates apply. Book by December 7, 2026 for stays through October 31, 2027. Virtuoso amenities can be added on top when booked through Merritt.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Esperanza",
+   "brand": "Auberge Resorts Collection",
+   "location": "Los Cabos, Mexico",
+   "area": "Mexico and Caribbean",
+   "offer": "Up to 40% off when booked 14 or more days ahead",
+   "book_by": "2026-12-07",
+   "stay_start": "",
+   "stay_end": "2027-10-31",
+   "stay_text": "Stays through Oct 31, 2027",
+   "details": "Reserve 14 or more days before arrival to save up to 40%. Full prepayment is required at booking and the reservation cannot be changed, cancelled or refunded. Subject to availability and blackout dates apply. Book by December 7, 2026 for stays through October 31, 2027. Virtuoso amenities can be added on top when booked through Merritt.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Susurros del Corazón",
+   "brand": "Auberge Resorts Collection",
+   "location": "Punta de Mita, Mexico",
+   "area": "Mexico and Caribbean",
+   "offer": "Up to 40% off when booked 21 or more days ahead",
+   "book_by": "2026-12-07",
+   "stay_start": "",
+   "stay_end": "2027-10-31",
+   "stay_text": "Stays through Oct 31, 2027",
+   "details": "Reserve 21 or more days before arrival for a preferred rate of up to 40% off. Full prepayment is required at booking and the reservation cannot be changed, cancelled or refunded. Subject to availability and blackout dates apply. Book by December 7, 2026 for stays through October 31, 2027. Virtuoso amenities can be added on top when booked through Merritt.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Etéreo",
+   "brand": "Auberge Resorts Collection",
+   "location": "Riviera Maya, Mexico",
+   "area": "Mexico and Caribbean",
+   "offer": "Up to 40% off when booked 21 or more days ahead",
+   "book_by": "2026-12-07",
+   "stay_start": "",
+   "stay_end": "2027-10-31",
+   "stay_text": "Stays through Oct 31, 2027",
+   "details": "Reserve 21 or more days before arrival for a preferred rate of up to 40% off. Full prepayment is required at booking and the reservation cannot be changed, cancelled or refunded. Subject to availability and blackout dates apply. Book by December 7, 2026 for stays through October 31, 2027. Virtuoso amenities can be added on top when booked through Merritt.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Collegio alla Querce",
+   "brand": "Auberge Resorts Collection",
+   "location": "Florence, Italy",
+   "area": "Europe",
+   "offer": "Third night free",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "",
+   "details": "Stay three nights and the third is complimentary. Plus Virtuoso amenities when booked through Merritt. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "The Woodward",
+   "brand": "Auberge Resorts Collection",
+   "location": "Geneva, Switzerland",
+   "area": "Europe",
+   "offer": "25% off stays of 4 nights or more, with breakfast",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "",
+   "details": "Stay four nights or more and save 25%, with breakfast at Le Jardinier included. Plus Virtuoso amenities when booked through Merritt. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Context Travel guided tours",
+   "brand": "Context Travel",
+   "location": "Cities worldwide",
+   "area": "Multiple areas",
+   "offer": "Up to 20% off two or more tours, 15% off one",
+   "book_by": "2026-11-30",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "Travel dates to be confirmed",
+   "details": "Cyber sale on Context Travel expert-led walking tours and experiences. Save up to 20% when two or more tours are purchased together, or 15% on a single tour. Bookings must be made between November 27 and November 30, 2026. Travel dates and tour exclusions to be confirmed with Merritt.",
+   "kids": false,
+   "advisor_booked": false
   }
  ]
 }
