@@ -1,5 +1,5 @@
 {
- "updated": "November 24, 2026",
+ "updated": "November 25, 2026",
  "deals": [
   {
    "name": "ESPACIO Nagoya Castle",
@@ -3472,6 +3472,118 @@
    "details": "Up to 45% off. This is a Black Friday and Cyber Monday rate available for a limited time when booked through Merritt. Exact dates and conditions to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": true
+  },
+  {
+   "name": "Hotel del Coronado, Shore House and Beach Village",
+   "brand": "Hilton (Curio Collection and LXR)",
+   "location": "Coronado, California, USA",
+   "area": "North America",
+   "offer": "Third night free",
+   "book_by": "2026-12-26",
+   "stay_start": "2026-11-25",
+   "stay_end": "2027-03-03",
+   "stay_text": "Now to Mar 3, 2027",
+   "details": "Three-night stays in the Shore House and Beach Village neighborhoods, priced as 33 percent off. Blackout dates include Nov 25 and 27, Dec 19, 20, 24, 27 and 30, 2026, and Jan 1, Feb 13 and 14, 2027. Plus Crown Club benefits when booked through Merritt: daily breakfast for two, a dining credit, a resort credit, an upgrade and early check-in and late check-out when available.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Hotel del Coronado, The Victorian, The Views and The Cabanas",
+   "brand": "Hilton (Curio Collection and LXR)",
+   "location": "Coronado, California, USA",
+   "area": "North America",
+   "offer": "Third night free",
+   "book_by": "2026-12-26",
+   "stay_start": "2026-11-25",
+   "stay_end": "2027-03-10",
+   "stay_text": "Now to Mar 10, 2027",
+   "details": "Three-night stays in the Victorian, Views and Cabanas neighborhoods, priced as 33 percent off. Blackout dates are Nov 26 and 27, Dec 18, 21, 25, 28 and 31, 2026, and Feb 13, 2027. Plus Crown Club benefits when booked through Merritt: daily breakfast for two, a dining credit, a resort credit, an upgrade and early check-in and late check-out when available.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Hotel del Coronado, Shore House and Beach Village",
+   "brand": "Hilton (Curio Collection and LXR)",
+   "location": "Coronado, California, USA",
+   "area": "North America",
+   "offer": "Fourth night free",
+   "book_by": "2026-12-26",
+   "stay_start": "2027-04-18",
+   "stay_end": "2027-06-17",
+   "stay_text": "Apr 18 to Jun 17, 2027",
+   "details": "Four-night stays in the Shore House and Beach Village neighborhoods, priced as 25 percent off. Blackout dates are Apr 19 and 22, May 28, 30 and 31, and Jun 12 and 17, 2027. Plus Crown Club benefits when booked through Merritt: daily breakfast for two, a dining credit, a resort credit, an upgrade and early check-in and late check-out when available.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Hotel del Coronado, Shore House",
+   "brand": "Hilton (Curio Collection and LXR)",
+   "location": "Coronado, California, USA",
+   "area": "North America",
+   "offer": "Upgrade at booking",
+   "book_by": "2026-12-18",
+   "stay_start": "2026-11-25",
+   "stay_end": "2027-03-03",
+   "stay_text": "Now to Mar 3, 2027",
+   "details": "A view upgrade within the same room type at the time of booking, for example guestroom to guestroom or villa to villa. Blackout dates are Nov 25 to 27 and Dec 18 to 31, 2026, and Jan 1, Feb 13 and 14, 2027. Plus Crown Club benefits when booked through Merritt: daily breakfast for two, a dining credit, a resort credit, an upgrade and early check-in and late check-out when available.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "1 Hotel Hanalei Bay",
+   "brand": "1 Hotels",
+   "location": "Kauai, Hawaii, USA",
+   "area": "North America",
+   "offer": "$550 resort credit, daily breakfast and a discount on Pay Later rates",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "Holiday season 2026",
+   "details": "Stays of three nights or more in standard rooms over the holidays. Includes a one-time $550 resort credit, daily buffet breakfast for two, a welcome amenity, a one-category upgrade at check-in when available and early check-in and late check-out when available. A two-night deposit is due within 21 days of arrival. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": true
+  },
+  {
+   "name": "Mandarin Oriental, Paris",
+   "brand": "Mandarin Oriental",
+   "location": "Paris, France",
+   "area": "Europe",
+   "offer": "Room upgrade at the time of booking",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "2027-03-31",
+   "stay_text": "Stays completed by Mar 31, 2027",
+   "details": "A confirmed room upgrade at the time of booking for new reservations at the Saint-Honoré property, when booked through Merritt. Stays must be completed by March 31, 2027. Plus Fan Club amenities.",
+   "kids": false,
+   "advisor_booked": true
+  },
+  {
+   "name": "Six Senses Rome",
+   "brand": "Six Senses",
+   "location": "Rome, Italy",
+   "area": "Europe",
+   "offer": "Third night free",
+   "book_by": "2027-01-31",
+   "stay_start": "",
+   "stay_end": "2027-03-31",
+   "stay_text": "Travel by Mar 31, 2027",
+   "details": "Stay three nights and pay for two, in any room category. Can be combined for longer stays.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Oil Nut Bay, Halo villa",
+   "brand": "Oil Nut Bay",
+   "location": "Virgin Gorda, British Virgin Islands",
+   "area": "Mexico and Caribbean",
+   "offer": "Private chef included for two nights",
+   "book_by": "",
+   "stay_start": "",
+   "stay_end": "",
+   "stay_text": "Christmas and New Year's week 2026",
+   "details": "Five-bedroom Halo villa in the Atlantic neighborhood, sleeps 10. Four-night minimum stay. A private chef is included for two nights, or three nights on stays of seven nights or more. Exact dates and conditions to be confirmed with the resort.",
+   "kids": false,
+   "advisor_booked": false
   }
  ]
 }
