@@ -1,5 +1,5 @@
 {
- "updated": "November 25, 2026",
+ "updated": "November 26, 2026",
  "deals": [
   {
    "name": "ESPACIO Nagoya Castle",
@@ -3582,6 +3582,20 @@
    "stay_end": "",
    "stay_text": "Christmas and New Year's week 2026",
    "details": "Five-bedroom Halo villa in the Atlantic neighborhood, sleeps 10. Four-night minimum stay. A private chef is included for two nights, or three nights on stays of seven nights or more. Exact dates and conditions to be confirmed with the resort.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Round Hill Hotel & Villas",
+   "brand": "Round Hill Hotel & Villas",
+   "location": "Montego Bay, Jamaica",
+   "area": "Mexico and Caribbean",
+   "offer": "35% off, plus a $50 resort credit and 20% off spa",
+   "book_by": "2026-11-29",
+   "stay_start": "2027-01-19",
+   "stay_end": "2027-12-16",
+   "stay_text": "Jan 19 to Dec 16, 2027",
+   "details": "Black Friday sale. Book between Nov 26 and Nov 29, 2026 for stays from Jan 19 to Dec 16, 2027. Terms and conditions apply. Exact dates and conditions to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": false
   }
