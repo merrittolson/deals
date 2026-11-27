@@ -1,5 +1,5 @@
 {
- "updated": "November 26, 2026",
+ "updated": "November 27, 2026",
  "deals": [
   {
    "name": "ESPACIO Nagoya Castle",
@@ -502,20 +502,6 @@
    "stay_end": "2027-03-31",
    "stay_text": "Q4 2026 through Q1 2027",
    "details": "Book the Best Available Rate and the next room category up is guaranteed at the time of booking rather than at check-in. Signature Suites and interconnecting family rooms are excluded. Plus Mandarin Oriental Fan Club amenities, which the hotel confirms are combinable with this promotion.",
-   "kids": false,
-   "advisor_booked": true
-  },
-  {
-   "name": "The Setai, Miami Beach",
-   "brand": "The Setai",
-   "location": "Miami Beach, USA",
-   "area": "North America",
-   "offer": "Fourth night free",
-   "book_by": "",
-   "stay_start": "",
-   "stay_end": "2026-11-26",
-   "stay_text": "Available through Thanksgiving (Nov 26, 2026)",
-   "details": "Stay four nights and the fourth is free, available through Thanksgiving. Plus Virtuoso amenities, which the hotel confirms are combinable with this promotion.",
    "kids": false,
    "advisor_booked": true
   },
@@ -1580,20 +1566,6 @@
    "stay_end": "2027-04-30",
    "stay_text": "Oct 7, 2026 to Apr 30, 2027",
    "details": "Guaranteed upgrade from a Superior Room to a Deluxe Room at time of booking, plus early check-in, on new reservations. Applies to upgrades from the Superior Room category. Available when booked through Merritt.",
-   "kids": false,
-   "advisor_booked": true
-  },
-  {
-   "name": "Four Seasons Hotel Prague",
-   "brand": "Four Seasons",
-   "location": "Prague, Czech Republic",
-   "area": "Europe",
-   "offer": "Guaranteed upgrade",
-   "book_by": "",
-   "stay_start": "2026-10-25",
-   "stay_end": "2026-11-26",
-   "stay_text": "Oct 25 to Nov 26, 2026",
-   "details": "Guaranteed upgrade on new reservations in Modern, Superior and Deluxe room categories. Available when booked through Merritt.",
    "kids": false,
    "advisor_booked": true
   },
@@ -3231,7 +3203,7 @@
    "stay_start": "",
    "stay_end": "",
    "stay_text": "Travel dates to be confirmed",
-   "details": "Cyber sale on Context Travel expert-led walking tours and experiences. Save up to 20% when two or more tours are purchased together, or 15% on a single tour. Bookings must be made between November 27 and November 30, 2026. Travel dates and tour exclusions to be confirmed with Merritt.",
+   "details": "Cyber sale on Context Travel expert-led walking tours and experiences. Save 20% when two or more tours are booked together, or 15% on a single tour. Book between November 27 and November 30, 2026. Not valid on multi-day tours or gift cards; travel dates to be confirmed when booking.",
    "kids": false,
    "advisor_booked": false
   },
@@ -3596,6 +3568,20 @@
    "stay_end": "2027-12-16",
    "stay_text": "Jan 19 to Dec 16, 2027",
    "details": "Black Friday sale. Book between Nov 26 and Nov 29, 2026 for stays from Jan 19 to Dec 16, 2027. Terms and conditions apply. Exact dates and conditions to be confirmed with the hotel.",
+   "kids": false,
+   "advisor_booked": false
+  },
+  {
+   "name": "Grace Bay Club",
+   "brand": "Grace Bay Club",
+   "location": "Providenciales, Turks and Caicos",
+   "area": "Mexico and Caribbean",
+   "offer": "Up to 25% off suites and residences, plus a dining credit",
+   "book_by": "2026-12-01",
+   "stay_start": "2027-03-28",
+   "stay_end": "2027-12-15",
+   "stay_text": "Mar 28 to Dec 15, 2027",
+   "details": "Suites are up to 25% off with a $100 food and beverage credit, and Estate Residences are up to 25% off with a $400 food and beverage credit. Minimum four nights, blackout dates apply, for stays from March 28 to December 15, 2027. Exact dates and conditions to be confirmed with the hotel.",
    "kids": false,
    "advisor_booked": false
   }
